@@ -1,0 +1,27 @@
+{
+  "name": "rocketbus/coppel-client",
+  "description": "Client for Coppel Client",
+  "keywords": [
+    "coppel",
+    "payment processing",
+    "api"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "require": {
+    "php": ">=5.4",
+    "symfony/validator": "v2.*",
+    "guzzlehttp/guzzle": "5.*",
+    "jms/serializer": "1.*",
+    "psr/log": "1.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*",
+    "monolog/monolog": "1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "RocketBus\\": "src/RocketBus/"
+    }
+  }
+}
